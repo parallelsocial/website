@@ -1,4 +1,4 @@
-const version = "2.10.9";
+const version = "2.10.10";
 
 var sphereAnimation = (function() {
   var sphereEl = document.querySelector('.sphere-animation');
