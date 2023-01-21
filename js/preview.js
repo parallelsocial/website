@@ -203,7 +203,7 @@ function makeMusicRequest(q) {
     const fetched = await fetch(`https://api.music.apple.com/v1/catalog/us/${q}`, {
       method: 'GET',
       headers: {
-        'Authorization': `Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjlIQTdGQzdXTTQifQ.eyJpYXQiOjE2NTk5MzEzOTIsImV4cCI6MTY3NTQ4MzM5MiwiaXNzIjoiQUozOUtTNzhDUyJ9.Ka-EkB4LVeFwusGlD7xDiqW8dfbselx4rL_87GIFPbni-wl_LHJKZ3fUtmo9ECr6xDI3A9R3gXmWFhjDUwguTA`,
+        'Authorization': `Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjZGQ1o2QVVDUkcifQ.eyJpYXQiOjE2NzQzMTcwNzcsImV4cCI6MTY4OTg2OTA3NywiaXNzIjoiTEc3UjdNSzRFUCJ9.ssNcJi2qVS0selR14P6FpTOAW74qaSBqJfp5SCqo0-cm8ZWzKX1u_eKFqRC7_E92KnG6FueZG5BwqBpUn4O1Kg`,
       }
     });
 
