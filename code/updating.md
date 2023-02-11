@@ -14,10 +14,11 @@ Update version in `src/js/app.js` to ensure the proper version is displayed in t
 window.gitHubVersion = 'x.y.z';
 ```
 
-Update version in `docs/assets/index.js` to ensure the website download button points to the latest file:
+Update version in `docs/assets/index.js` in `parallelsocial/website` repo to ensure the website download button points to the latest file:
 ```
 const version = "2.10.6";
 ```
+Make sure to only publish these changes after the builds are uploaded and public so that the download buttons do not stop working.
 
 ### Add MacOS Executables
 ```
